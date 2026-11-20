@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+.content {
+  height: fit-content;
+  min-height: 90vh;
+  background: #ececec;
+  z-index: 0;
+}
+.hover {
+  cursor: pointer;
+}
+.bookmark_header {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+.page_wrapper {
+  overflow-y: scroll;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.page_wrapper::-webkit-scrollbar {
+  display: none;
+}
